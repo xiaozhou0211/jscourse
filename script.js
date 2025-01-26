@@ -1,4 +1,4 @@
-// var let const 
+// var let const
 // var firstName = "Kingsley"
 // let secondPersonFirstName = "23"
 // const petAge = 3
@@ -111,8 +111,8 @@
 // type Conversion and coercion
 //Conversion - manually convert from one type to another
 
-const inputYear = '1991';
-const inputYearNumber = 1991;
+// const inputYear = '1991';
+// const inputYearNumber = 1991;
 
 // console.log(inputYearString)
 // console.log(inputYearNumber)
@@ -161,7 +161,7 @@ const inputYearNumber = 1991;
 // == vs ===
 // === strict equality operator
 // == loose equality operator
-const age = '18';
+// const age = '18';
 
 // if (age == 18) console.log('you become an adult (strict)')
 
@@ -248,8 +248,65 @@ const age = '18';
 // }
 
 // swithc statament
+// const day = 'wednesday';
+
+// switch (day) {
+//     case 'monday':
+//         console.log('BBQ day')
+//         console.log('and we are so happy')
+//     case 'tuesday':
+//         console.log('we are stay home')
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('today is rainning')
+//         break;
+//     case 'friday':
+//         console.log('Yay, today is friday')
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('the weekend is end now...')
+//     default:
+//         console.log('not a valid day')
+// }
+
+
+// let day;
+// console.log(new Date().getDate())
+// switch (new Date().getDate()) {
+//     case 19:
+//         day = 'sunday';
+//         break;
+//     case 20:
+//         day = 'Monday';
+//         break;
+//     case 2:
+//         day = 'Tuesday';
+//         break;
+//     case 3:
+//         day = 'Wesnesday';
+//         break;
+//     case 4:
+//         day = 'Thursday';
+//         break;
+//     case 5:
+//         day = "Friday";
+//         break;
+//     case 6:
+//         day = "Saturday";
+// }
+
+// document.getElementById("demo").innerHTML = "Today is " + day;
 
 
 // Statements and Expressions
+//Expressions is provid a value
+// 3 + 4
+// 1991
+// ture && false && !false
+// //Statements
+// if (23 > 10) {
+//     const str = '23 is bigger'
+// }
 
-// Statements and Expressions
+
